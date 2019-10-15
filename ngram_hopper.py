@@ -36,7 +36,7 @@ def get_iliad_book(num):
     return book
 
 def get_iliad():
-    """ generates the entire iliad text """
+    """ returns the entire iliad text """
     t = []
     for n in range(1, 25):
         t.extend(get_iliad_book(n))
